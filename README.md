@@ -63,8 +63,8 @@ Nota:
 
   -Realmente se puede conectar cualquier dispositivo que requiera electricidad para funcionar. En el programa vienen definidos 2 elementos a controlar: una luz (Light) y un ventilador (Fan).
   
-  -*Cuidado*: En el momento de conectar una de las entradas de corriente a nuestro “Interruptor”, tener cuenta que se corre el peligro de sufrir una descarga severa. Tomar las medidas oportunas.
+  -**Cuidado**: En el momento de conectar una de las entradas de corriente a nuestro “Interruptor”, tener cuenta que se corre el peligro de sufrir una descarga severa. Tomar las medidas oportunas.
 
 
 
-*Y ahora… a disfrutar de la domótica en casa!*
+### Y ahora… a disfrutar de la domótica en casa!
