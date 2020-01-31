@@ -10,11 +10,40 @@ This application enables us to control any electric device using a device with i
 
 **Materials**
 
-- Nodemcu ESP8266:
+- Nodemcu ESP8266 board:
 ![ESP8266](https://github.com/Jkutkut/SwitchItON/blob/master/imgs/esp8266.png)
 
 - Relay for Arduino (3 inputs: Vcc, Gnd and S):
 ![Relé](https://github.com/Jkutkut/SwitchItON/blob/master/imgs/relay.png)
+
+- Cable for the electric connections.
+
+- Gaine thermoretractable or isolation for the connections.
+
+- AC to 5V DC transformer (e.g. phone charger, in order to fuel the board).
+
+- Security measures (This project uses +220V on AC).
+
+***Turorial:***
+- Install Arduino IDE on your PC.
+
+- [GET ARDUINO READY FOR THE BOARD](https://www.youtube.com/watch?v=p06NNRq5NTU).
+
+- Download the code for the board (SwitchItON_V*x*.ino).
+
+- Change the parametres needed (see comments on the file).
+
+- Upload the code to the board.
+
+- Import the AppInventor 2 application (SwitchItON_V*x*.aia) and custom it.
+
+- Install the app on a AppInventor compatible device.
+
+- Assemble the circuit:
+![wiring](https://github.com/Jkutkut/SwitchItON/blob/master/imgs/wiring.png)
+
+---------------------------------------------------------------------------------------------------------------------
+
 
 ## Español:
 
@@ -34,9 +63,10 @@ Esta aplicación domótica nos permite controlar mediante cualquier dispositivo 
 - Medidas de seguridad (Estaremos manejando corriente alterna a 220V).
 
 **Pasos a seguir:**
-- Instalar Arduino en el ordenador (si no lo está ya).
 
-- [PREPARAR ARDUINO PARA LA PLACA (seguir los pasos)](https://www.youtube.com/watch?v=0g7sazWXfEI).
+- Instalar Arduino IDE en el ordenador.
+
+- [PREPARAR ARDUINO PARA LA PLACA](https://www.youtube.com/watch?v=0g7sazWXfEI).
 
 - Descargar el programa para la placa (SwitchItON_V*x*.ino).
 
