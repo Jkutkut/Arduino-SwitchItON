@@ -14,6 +14,7 @@ Esta aplicación domótica nos permite controlar mediante cualquier dispositivo 
 ![ESP8266](https://github.com/Jkutkut/SwitchItON/blob/master/imgs/esp8266.png)
 
 -Relé para arduino (tiene 3 entradas: Vcc, Gnd y S):
+![Relé](https://github.com/Jkutkut/SwitchItON/blob/master/imgs/relay.png)
 
 - Cable para hacer las conexiones.
 - Plástico termoretráctil o aislante para las conexiones.
