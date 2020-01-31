@@ -48,6 +48,8 @@ Esta aplicación domótica nos permite controlar mediante cualquier dispositivo 
   -Relé: Actúa como interruptor gracias a placa. La conexión Placa-Relé se realiza conectando la salida de la placa digital con la entrada S (de Switch). También se puede alimentar este componente directamente desde la placa pero cuidado porque a veces necesitamos más voltaje del que nos ofrece la placa.
   -Placa: realiza toda la comunicación con el cliente (Nosotros) mediante WIFI y acciona el “interruptor”.
 
+![ejemplo](https://github.com/Jkutkut/SwitchItON/blob/master/imgs/example.png)
+
 
 Nota:
   -El orden de las entradas del Relé pueden variar. Tener en cuenta que:
