@@ -4,10 +4,21 @@
 
 *Este proyecto está disponible tanto en inglés como en español.*
 
+## English:
+
+This application enables us to control any electric device using a device with internet connection.
+
+**Materials**
+
+- Nodemcu ESP8266:
+![ESP8266](https://github.com/Jkutkut/SwitchItON/blob/master/imgs/esp8266.png)
+
+- Relay for Arduino (3 inputs: Vcc, Gnd and S):
+![Relé](https://github.com/Jkutkut/SwitchItON/blob/master/imgs/relay.png)
 
 ## Español:
 
-Esta aplicación domótica nos permite controlar mediante cualquier dispositivo inteligente cualquier aparato eléctrico. 
+Esta aplicación domótica nos permite controlar mediante cualquier dispositivo con conexión a internet cualquier aparato eléctrico. 
 
 **Materiales**
 
