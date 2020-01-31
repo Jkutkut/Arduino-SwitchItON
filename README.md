@@ -1,7 +1,8 @@
 # SwitchItON
 
 *This project is avalive in English and Spanish.*
-*Este proyecto está disponible tanto en inglés como en Español.*
+
+*Este proyecto está disponible tanto en inglés como en español.*
 
 
 ## Español:
@@ -38,11 +39,13 @@ Esta aplicación domótica nos permite controlar mediante cualquier dispositivo 
 
 - Montar el circuito:
 
+![conexiones](https://github.com/Jkutkut/SwitchItON/blob/master/imgs/wiring.png)
+
 *Nota:* De izquierda a derecha:
--Transformador: alimenta a la placa y al relé. La conexión con la placa se puede hacer mediante USB.
--Relé: Actúa como interruptor gracias a placa. La conexión Placa-Relé se realiza conectando la salida de la placa digital con la entrada S (de Switch). También se puede alimentar este componente directamente desde la placa pero cuidado porque a veces necesitamos más voltaje del que nos ofrece la placa.
- 
--Placa: realiza toda la comunicación con el cliente (Nosotros) mediante WIFI y acciona el “interruptor”.
+ -Transformador: alimenta a la placa y al relé. La conexión con la placa se puede hacer mediante USB.
+
+ -Relé: Actúa como interruptor gracias a placa. La conexión Placa-Relé se realiza conectando la salida de la placa digital con la entrada S (de Switch). También se puede alimentar este componente directamente desde la placa pero cuidado porque a veces necesitamos más voltaje del que nos ofrece la placa.
+ -Placa: realiza toda la comunicación con el cliente (Nosotros) mediante WIFI y acciona el “interruptor”.
 
 
 Nota:
