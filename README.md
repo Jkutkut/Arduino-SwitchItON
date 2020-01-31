@@ -9,7 +9,9 @@
 Esta aplicación domótica nos permite controlar mediante cualquier dispositivo inteligente cualquier aparato eléctrico. 
 
 ***Materiales***
+
 -Placa Nodemcu ESP8266:
+[ESP8266](https://github.com/Jkutkut/SwitchItON/tree/master/imgs/esp8266.png)
 
 -Relé para arduino (tiene 3 entradas: Vcc, Gnd y S):
 
