@@ -42,20 +42,21 @@ Esta aplicación domótica nos permite controlar mediante cualquier dispositivo 
 ![conexiones](https://github.com/Jkutkut/SwitchItON/blob/master/imgs/wiring.png)
 
 *Nota:* De izquierda a derecha:
- -Transformador: alimenta a la placa y al relé. La conexión con la placa se puede hacer mediante USB.
+ 
+  -Transformador: alimenta a la placa y al relé. La conexión con la placa se puede hacer mediante USB.
 
- -Relé: Actúa como interruptor gracias a placa. La conexión Placa-Relé se realiza conectando la salida de la placa digital con la entrada S (de Switch). También se puede alimentar este componente directamente desde la placa pero cuidado porque a veces necesitamos más voltaje del que nos ofrece la placa.
- -Placa: realiza toda la comunicación con el cliente (Nosotros) mediante WIFI y acciona el “interruptor”.
+  -Relé: Actúa como interruptor gracias a placa. La conexión Placa-Relé se realiza conectando la salida de la placa digital con la entrada S (de Switch). También se puede alimentar este componente directamente desde la placa pero cuidado porque a veces necesitamos más voltaje del que nos ofrece la placa.
+  -Placa: realiza toda la comunicación con el cliente (Nosotros) mediante WIFI y acciona el “interruptor”.
 
 
 Nota:
--El orden de las entradas del Relé pueden variar. Tener en cuenta que:
-   +GND = Ground = Tierra = “-”
-   +Vcc = Voltaje en continua = Positivo = “+” (Será 5V o 3,3V seguramente).
-   +S = Switch = Interruptor (Donde se conecta la salida digital de la placa).
+  -El orden de las entradas del Relé pueden variar. Tener en cuenta que:
+    +GND = Ground = Tierra = “-”.
+    +Vcc = Voltaje en continua = Positivo = “+” (Será 5V o 3,3V seguramente).
+    +S = Switch = Interruptor (Donde se conecta la salida digital de la placa).
 
--Realmente se puede conectar cualquier dispositivo que requiera electricidad para funcionar. En el programa vienen definidos 2 elementos a controlar: una luz (Light) y un ventilador (Fan).
--Cuidado: En el momento de conectar una de las entradas de corriente a nuestro “Interruptor”, tener cuenta que se corre el peligro de sufrir una descarga severa. Tomar las medidas oportunas.
+  -Realmente se puede conectar cualquier dispositivo que requiera electricidad para funcionar. En el programa vienen definidos 2 elementos a controlar: una luz (Light) y un ventilador (Fan).
+  -*Cuidado*: En el momento de conectar una de las entradas de corriente a nuestro “Interruptor”, tener cuenta que se corre el peligro de sufrir una descarga severa. Tomar las medidas oportunas.
 
 
 
