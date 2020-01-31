@@ -52,12 +52,17 @@ Esta aplicación domótica nos permite controlar mediante cualquier dispositivo 
 
 
 Nota:
+
   -El orden de las entradas del Relé pueden variar. Tener en cuenta que:
-    +GND = Ground = Tierra = “-”.
-    +Vcc = Voltaje en continua = Positivo = “+” (Será 5V o 3,3V seguramente).
-    +S = Switch = Interruptor (Donde se conecta la salida digital de la placa).
+    
+    -GND = Ground = Tierra = “-”.
+    
+    -Vcc = Voltaje en continua = Positivo = “+” (Será 5V o 3,3V seguramente).
+    
+    -S = Switch = Interruptor (Donde se conecta la salida digital de la placa).
 
   -Realmente se puede conectar cualquier dispositivo que requiera electricidad para funcionar. En el programa vienen definidos 2 elementos a controlar: una luz (Light) y un ventilador (Fan).
+  
   -*Cuidado*: En el momento de conectar una de las entradas de corriente a nuestro “Interruptor”, tener cuenta que se corre el peligro de sufrir una descarga severa. Tomar las medidas oportunas.
 
 
