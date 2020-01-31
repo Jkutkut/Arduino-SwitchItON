@@ -10,16 +10,16 @@ Esta aplicación domótica nos permite controlar mediante cualquier dispositivo 
 
 ***Materiales***
 
--Placa Nodemcu ESP8266:
+- Placa Nodemcu ESP8266:
 ![ESP8266](https://github.com/Jkutkut/SwitchItON/blob/master/imgs/esp8266.png)
 
--Relé para arduino (tiene 3 entradas: Vcc, Gnd y S):
+- Relé para arduino (tiene 3 entradas: Vcc, Gnd y S):
 ![Relé](https://github.com/Jkutkut/SwitchItON/blob/master/imgs/relay.png)
 
 - Cable para hacer las conexiones.
 - Plástico termoretráctil o aislante para las conexiones.
--Transformador de corriente alterna a continua 5V (Como un cargador de móvil, para alimentar la placa).
--Medidas de seguridad (Estaremos manejando corriente alterna a 220V).
+- Transformador de corriente alterna a continua 5V (Como un cargador de móvil, para alimentar la placa).
+- Medidas de seguridad (Estaremos manejando corriente alterna a 220V).
 
 Pasos a seguir:
 1º Instalar Arduino en el ordenador (si no lo está ya).
