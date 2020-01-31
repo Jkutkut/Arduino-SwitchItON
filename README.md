@@ -8,7 +8,7 @@
 
 Esta aplicación domótica nos permite controlar mediante cualquier dispositivo inteligente cualquier aparato eléctrico. 
 
-***Materiales***
+##Materiales
 
 - Placa Nodemcu ESP8266:
 ![ESP8266](https://github.com/Jkutkut/SwitchItON/blob/master/imgs/esp8266.png)
@@ -21,7 +21,7 @@ Esta aplicación domótica nos permite controlar mediante cualquier dispositivo 
 - Transformador de corriente alterna a continua 5V (Como un cargador de móvil, para alimentar la placa).
 - Medidas de seguridad (Estaremos manejando corriente alterna a 220V).
 
-Pasos a seguir:
+###Pasos a seguir:###
 - Instalar Arduino en el ordenador (si no lo está ya).
 
 - [PREPARAR ARDUINO PARA LA PLACA (seguir los pasos)](https://www.youtube.com/watch?v=0g7sazWXfEI).
