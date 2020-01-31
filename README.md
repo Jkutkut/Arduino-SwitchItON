@@ -22,17 +22,23 @@ Esta aplicación domótica nos permite controlar mediante cualquier dispositivo 
 - Medidas de seguridad (Estaremos manejando corriente alterna a 220V).
 
 Pasos a seguir:
-1º Instalar Arduino en el ordenador (si no lo está ya).
-2º [PREPARAR ARDUINO PARA LA PLACA (seguir los pasos)](https://www.youtube.com/watch?v=0g7sazWXfEI).
-3º Descargar el programa para la placa (SwitchItON_V*x*.ino).
-4º Cambiar los parámetros necesarios (Ver comentarios en el archivo).
-5º Cargar el programa en la placa.
-6º Importar en AppInventor 2 la aplicación (SwitchItON_V*x*.aia) y personalizar al gusto.
+- Instalar Arduino en el ordenador (si no lo está ya).
 
-7º Instalar la aplicación en un dispositivo compatible con AppInventor.
+- [PREPARAR ARDUINO PARA LA PLACA (seguir los pasos)](https://www.youtube.com/watch?v=0g7sazWXfEI).
 
-8º Montar el circuito:
-Nota: De izquierda a derecha:
+- Descargar el programa para la placa (SwitchItON_V*x*.ino).
+
+- Cambiar los parámetros necesarios (Ver comentarios en el archivo).
+
+- Cargar el programa en la placa.
+
+- Importar en AppInventor 2 la aplicación (SwitchItON_V*x*.aia) y personalizar al gusto.
+
+- Instalar la aplicación en un dispositivo compatible con AppInventor.
+
+- Montar el circuito:
+
+*Nota:* De izquierda a derecha:
 -Transformador: alimenta a la placa y al relé. La conexión con la placa se puede hacer mediante USB.
 -Relé: Actúa como interruptor gracias a placa. La conexión Placa-Relé se realiza conectando la salida de la placa digital con la entrada S (de Switch). También se puede alimentar este componente directamente desde la placa pero cuidado porque a veces necesitamos más voltaje del que nos ofrece la placa.
  
