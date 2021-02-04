@@ -8,7 +8,7 @@
 /*********   Cambiar esto para controlar la luz y el ventilador   *********/
 char ssid[] = "WIFINAME"; // SSID de la WiFi
 char password[] = "WIFIPASSW"; // Contraseña de la WiFi
-IPAddress ip(192, 168, 1, 80; // Dirección IP del servidor (Esta placa NodeMCU ESP8266)
+IPAddress ip(192, 168, 1, 80); // Dirección IP del servidor (Esta placa NodeMCU ESP8266)
 //Revisa el final del archivo
 #define RelayL 14 //Arduino Digital I/O pin number -> Luz
 #define RelayF 12 //Arduino Digital I/O pin number -> Ventilador
@@ -103,7 +103,7 @@ void loop() {          /*************  Bucle  *************/
   0 = OFF
   1 = ON
   */
-  if(Message.indexOf("/Whatsgoingon")!=-1){+
+  if(Message.indexOf("/Whatsgoingon")!=-1){
     Answer=String(relayL)+String(relayF);//Si "Whatsgoingon" pedido, responde con el valor actual de la luz y el ventilador
   }
   else if (Message.indexOf("/L%20Set%20ON")!=-1){

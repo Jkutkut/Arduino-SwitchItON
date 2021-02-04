@@ -8,7 +8,7 @@
 /*********   Change this to control Light and Fan   *********/
 char ssid[] = "WIFINAME"; // SSID of WiFi
 char password[] = "WIFIPASSW"; // Password of WiFi
-IPAddress ip(192, 168, 1, 80; // IP address of the server (this NodeMCU ESP8266)
+IPAddress ip(192, 168, 1, 80); // IP address of the server (this NodeMCU ESP8266)
 //check the bottom of the file
 #define RelayL 14 //Arduino Digital I/O pin number->Light
 #define RelayF 12 //Arduino Digital I/O pin number->Fan
@@ -103,7 +103,7 @@ void loop() {          /*************  LOOP  *************/
   0 = OFF
   1 = ON
   */
-  if(Message.indexOf("/Whatsgoingon")!=-1){+
+  if(Message.indexOf("/Whatsgoingon")!=-1){
     Answer=String(relayL)+String(relayF);//if "Whatsgoingon" asked, answer with the state of the light and fan
   }
   else if (Message.indexOf("/L%20Set%20ON")!=-1){
